@@ -23,44 +23,30 @@ console.log("fin de la boucle");
 
 // probleme a finir ! pas compris EXERCICE 2 BOUCLES
 
-var n =parseInt(prompt('Entrez un nombre entier :'));
-
-console.log ("n")
-
-
-while (i<n)
-{
-    window.alert ("Les nombres inférieur sont : ")
-
-
-}
-
-
-
-for (n=0; n<20;)
-
-if (n<20)
-{
-window.alert( N+"est un nombre inferieur à 20");
-}
-else
-
-
-console.log("fin de la boucle");
-
 // 
 
 // exercicce 3 
 
-var x = 0;
-var y = 0;
-var z = x*y;
-// 
+var entrer = true;
+ var result = 0;
+ var nbr = 0
 
-
-
-
-
+ while(entrer)
+  {
+    entier = window.prompt("entrer un entier");
+    if (entier>0 && entier != null)
+     {
+        result = parseFloat(result)+parseFloat(entier)
+        nbr ++
+ }
+ else
+ {
+break
+ }
+}
+console.log(result,nbr);
+var moyenne = result / nbr;
+ document.write("le total est ="+result+ " et la moyenne est égal à "+moyenne);
 
 
 
